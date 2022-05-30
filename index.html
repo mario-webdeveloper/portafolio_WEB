@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+    <meta name="description" content="Portafolio WEB de Mario Andrés">
+
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body class="body">
+
+    <header class="header" id="inicio">
+        <div class="header__contenedor">
+            <nav class="nav">
+                <a href="/">Inicio</a>
+                <a href="#acerca-de">Acerca de</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav> <!--.nav-->
+
+            <div class="contenedor__texto">
+                <a href="">
+                    <div class="texto" id="logotipo">
+                        <h1 class="texto__nombre" id="logo">Mario Andrés</h1>
+                        <h2 class="texto__profesion">Desarrollador Web</h2>
+                    </div>
+                </a>
+            </div> <!--.contenedor__texto-->    
+        </div>
+    </header> <!--header-->
+
+    <main class="main" id="acerca-de">
+        <section class="acerca-de">
+            <div class="acerca-de__contenedor">
+                <div class="acerca-de__foto">
+                    <picture>
+                        <source srcset="build/img/foto.avif" type="image/avif">
+                        <source srcset="build/img/foto.webp" type="image/webp">
+                        <img src="build/img/foto.jpg" height="270" width="270"  alt="Imagen Developer">
+                    </picture>
+                    
+                </div>
+                
+                <div class="acerca-de__texto">
+                    <h3 class="acerca-de__texto-titulo">Acerca de</h3>
+                    <p>Tecnólogo en Análisis y Desarrollo de Sistemas de Información, con certificación  <span class="bold">Itil V4 - Scrum fundamentals</span> conocimientos en lenguajes Front End, Back End,<span class="bold"> HTML5 - CCS3 - JAVASCRIPT - PHP - SQL </span> siempre aplicando las mejores practicas con diferentes  herramientas y técnicas aprendidas <span class="bold">SASS - Bootstrap - Normalize - Node.js - Modernizr - Gulp (Workflows) - npm - SEO -  RWD - Grid - Github - Git - Sintaxis de BEM</span></p>
+                </div>
+            </div>
+
+            <div class="acerca-de__btn boton-secundario">
+                <a href="#"><i class="fa-solid fa-download"></i> CV</a>  
+            </div>
+        </section> <!--.acerca-de-->            
+
+        <section class="portafolios" id="portafolio"> 
+            <h3 class="portafolios__titulo">Portafolio</h3>               
+            <div class="portafolios__grid contenedor">
+                
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/1.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/1.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/1.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/javascript.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/javascript.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/javascript.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+
+                    <div class="portafolio__contenido">
+                        <a href="https://proyectocarritocompras.netlify.app/" rel="nopener noreferrer" target="_blank">
+                            <h3 class="portafolio__nombre">Carrito de Compras</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con HTML, CSS y esta enfocado en JAVASCRIPT, almacenamiento de productos en Local Storage.</p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://proyectocarritocompras.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->
+
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/2.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/2.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/2.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/javascript.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/javascript.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/javascript.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/sass.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/sass.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/sass.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/npm.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/npm.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/npm.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/gulp.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/gulp.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/gulp.png" alt="imagen skill">
+                        </picture>
+
+
+                    </div>
+                    <div class="portafolio__contenido">
+                        <a href="https://realstate-mario.netlify.app/" rel="nopener noreferrer" target="_blank">
+                            <h3 class="portafolio__nombre">Real State</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con HTML, SCSS y JAVASCRIPT, se utilizan diferentes tecnologias como Flexbox, Grid, NPM, Gulp(WorkFLow), SASS.</p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://realstate-mario.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->
+
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/3.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/3.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/3.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/javascript.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/javascript.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/javascript.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/sass.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/sass.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/sass.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/npm.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/npm.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/npm.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/gulp.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/gulp.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/gulp.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+
+                    <div class="portafolio__contenido">
+                        <a href="https://rockandedm-festival.netlify.app/" rel="nopener noreferrer" target="_blank">
+                            <h3 class="portafolio__nombre">Music Festival</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con HTML, SCSS y JAVASCRIPT, se utilizan diferentes tecnologias como Flexbox, Grid, NPM, Gulp(WorkFLow), SASS.</p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://rockandedm-festival.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->
+
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/4.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/4.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/4.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/javascript.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/javascript.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/javascript.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/sass.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/sass.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/sass.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/npm.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/npm.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/npm.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/gulp.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/gulp.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/gulp.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+                    <div class="portafolio__contenido">
+                        <a href="https://mariosfood.netlify.app/" target="_blank" rel="nopener noreferrer">
+                            <h3 class="portafolio__nombre">App Food</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con HTML, SCSS y JAVASCRIPT, se utilizan diferentes tecnologias como Flexbox, Grid, NPM, Gulp(WorkFLow), SASS.</p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://mariosfood.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->
+
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/5.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/5.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/5.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/javascript.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/javascript.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/javascript.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+                    <div class="portafolio__contenido">
+                        <a href="https://validationsimulator.netlify.app" target="_blank" rel="nopener noreferrer">
+                            <h3 class="portafolio__nombre">Formulario de contacto</h3>
+                            <p class="portafolio__descripcion">Simulador construido con HTML, CSS y JAVASCRIPT, se enfoca en las validaciones de facil entendimiento para el usuario final.</p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://validationsimulator.netlify.app" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->
+
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/6.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/6.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/6.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/javascript.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/javascript.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/javascript.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/sass.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/sass.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/sass.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/npm.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/npm.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/npm.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/gulp.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/gulp.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/gulp.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+                    <div class="portafolio__contenido">
+                        <a href="https://inmobiliaria-mhweb.netlify.app/" target="_blank" rel="nopener noreferrer">
+                            <h3 class="portafolio__nombre">Bienes Raíces</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con HTML, SCSS y JAVASCRIPT, me enfoque en el modo oscuro con local storage.</p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://inmobiliaria-mhweb.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->   
+                
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/7.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/7.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/7.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+                    <div class="portafolio__contenido">
+                        <a href="https://landingpagetechpro.netlify.app/" rel="nopener noreferrer" target="_blank">
+                            <h3 class="portafolio__nombre">E-commerce TechPro</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con HTML, CSS, esta practica se realiza con flexbox, grid y algunas animaciones E-commerce para cualquier tipo de negocio. </p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://landingpagetechpro.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->
+
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/8.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/8.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/8.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/bootstrap.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/bootstrap.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/bootstrap.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/sass.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/sass.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/sass.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/npm.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/npm.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/npm.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/gulp.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/gulp.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/gulp.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+
+                    <div class="portafolio__contenido">
+                        <a href="https://podcast-fm-mario.netlify.app/"  rel="nopener noreferrer" target="_blank">
+                            <h3 class="portafolio__nombre">Podcast</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con HTML, SCSS, se utilizan diferentes tecnologias como Flexbox, Grid, NPM, Gulp(WorkFLow), SASS.</p>                                
+                        </a>
+                        <a href="https://github.com/mario-webdeveloper/podcastfm.git" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace" rel="nopener noreferrer" href="https://podcast-fm-mario.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->
+
+                <div class="portafolio">
+                    <picture>
+                        <source loading="lazy" srcset="build/img/trabajos/9.avif" type="image/avif">
+                        <source loading="lazy" srcset="build/img/trabajos/9.webp" type="image/webp">
+                        <img class="portafolio__imagen" loading="lazy" src="build/img/trabajos/9.jpg" alt="imagen portafolio">
+                    </picture>  
+
+                    <div class="portafolio__meta">
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/html.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/html.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/html.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/css.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/css.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/css.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/bootstrap.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/bootstrap.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/bootstrap.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/javascript.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/javascript.webp" type="image/webp">
+                            <img loading="lazy" width="38" height="38" src="build/img/skills/javascript.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/sass.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/sass.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/sass.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/npm.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/npm.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/npm.png" alt="imagen skill">
+                        </picture>
+                        <picture>
+                            <source loading="lazy" srcset="build/img/skills/gulp.avif" type="image/avif">
+                            <source loading="lazy" srcset="build/img/skills/gulp.webp" type="image/webp">
+                            <img loading="lazy" width="40" height="40" src="build/img/skills/gulp.png" alt="imagen skill">
+                        </picture>
+
+                    </div>
+
+                    <div class="portafolio__contenido">
+                        <a href="https://portafolioweb-mario.netlify.app/"  rel="nopener noreferrer" target="_blank">
+                            <h3 class="portafolio__nombre">Portafolio Web</h3>
+                            <p class="portafolio__descripcion">Proyecto construido con el framework (Bootstrap) HTML, CSS, JAVASCRIPT ademas utilizando  tecnologias como: Gulp SASS entre otros. </p>                                
+                        </a>
+                        <a href="#" target="_blank" rel="nopener noreferrer">
+                            <picture>
+                                <source loading="lazy" srcset="build/img/skills/github.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/skills/github.webp" type="image/webp">
+                                <img class="portafolio__icono-github"  loading="lazy" width="40" height="40" src="build/img/skills/github.png" alt="enlace git hub">
+                            </picture>
+                        </a>
+    
+                        <a class="portafolio__enlace"  rel="nopener noreferrer" href="https://portafolioweb-mario.netlify.app/" target="_blank">Ver Proyecto</a>
+                        
+                    </div>
+                </div> <!--.portafolio-->  
+ 
+            </div>   
+            
+            <div class="portafolio__btn boton-secundario">
+                <a href="portafolio.html"></i>Ver más Proyectos</a>  
+            </div>
+        </section><!--.portafolios-->
+        
+    </main><!--.main-->
+
+    <footer>
+        <section class="contacto" id="contacto">
+            <div class="contacto__contenedor">
+                <h3 class="contacto__titulo">Contacto</h3>
+
+                <form class="contacto__formulario" id="enviar-mail">					
+                    <input type="text" placeholder="Nombre" name="nombre" id="nombre">
+                    <input type="email" placeholder="Correo" name="correo" id="email">
+                    <textarea name="mensaje" placeholder="Mensaje:" id="mensaje"></textarea>					
+                                                                    
+                    <button id="enviar" class="contacto__boton" type="submit" >Enviar</button>	
+                    <div id="msj"></div>		
+                </form>	                                   
+
+            </div>
+        </section>
+
+        <section class="redes-sociales">
+            <div class="redes-sociales__contenedor">
+                <a class="redes-sociales__linkedin redes-sociales__enlace" rel="nopener noreferrer" href="https://www.linkedin.com/in/mario-andr%C3%A9s-hern%C3%A1ndez-zapata" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="redes-sociales__github redes-sociales__enlace" rel="nopener noreferrer" href="https://github.com/mario-webdeveloper/mario-webdeveloper.github.io" target="_blank"><i class="fa fa-github"></i></a>			
+                <!-- <a class="redes-sociales__facebook redes-sociales__enlace" href="#"><i class="fa fa-facebook"></i></a> -->
+                <a class="redes-sociales__twitter redes-sociales__enlace" rel="nopener noreferrer" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="redes-sociales__youtube redes-sociales__enlace" rel="nopener noreferrer" href="#"><i class="fa fa-youtube-play"></i></a>
+                <!-- <a class="redes-sociales__instagram redes-sociales__enlace" href="#"><i class="fa fa-instagram"></i></a>                     -->
+            </div>
+        </section>
+
+        <div class="copyright">
+            <div class="copyright__grid copyright__contenedor">
+                <nav class="nav copyright__nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#acerca-de">Acerca de</a>
+                    <a href="#portafolio">Portafolio</a>
+                    <a href="#contacto">Contacto</a>
+                </nav> <!--.nav-->
+
+                <p class="copyright__texto">Derechos reservados Mario Andrés &copy; Desarrollador WEB 2022</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    
+    <script src="https://kit.fontawesome.com/51bd04d396.js" crossorigin="anonymous"></script>  
+    <script src="build/js/bundle.min.js"></script>
+</body>
+
+</html>
